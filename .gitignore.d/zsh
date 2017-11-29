@@ -1,0 +1,11 @@
+*
+!.zsh/
+!.zsh/bundles
+!.zlogin
+!.zlogout
+!.zshrc
+!.zshenv
+!.zpreztorc
+!.zprofile
+!.gitignore.d/
+!.gitignore.d/zsh
