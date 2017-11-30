@@ -10,5 +10,11 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
-#
+# Load extra scripts from .zshrc.d
+zshrcd=${ZDOTDIR:-$HOME}/.zshrc.d
+if [ -d $zshrcd ]; then
+    for i in $zshrcd/*.zsh; do
+        case $i in *~) continue;; esac
+        source $i
+    done
+fi
