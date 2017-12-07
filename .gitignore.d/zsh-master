@@ -9,3 +9,4 @@
 !.zprofile
 !.gitignore.d/
 !.gitignore.d/zsh-master
+!.gitignore.d/aliases.zsh
