@@ -10,6 +10,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+# Shell customizations
+setopt interactivecomments  # activate the bash-style comments
+
 # Load extra scripts from .zshrc.d
 zshrcd=${ZDOTDIR:-$HOME}/.zshrc.d
 if [ -d $zshrcd ]; then
