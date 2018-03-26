@@ -11,3 +11,4 @@
 !.gitignore.d/zsh-master
 !.gitignore.d/aliases.zsh
 !.gitignore.d/env.zsh
+!.gitignore.d/fzf.zsh
